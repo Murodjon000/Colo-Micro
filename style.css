@@ -11,7 +11,10 @@ justify-content:center;
 align-items:center;
 }
 li{
-
+list-style:georgian;
+color: rgb(12, 05, 66);
+font-family: 'Dancing Script', cursive;
+font-size: 1.3em;
 }
 
 a{
@@ -32,7 +35,7 @@ a:hover{
 nav{
     width:200px;
     position:fixed;
-    top:0;
+    top:2px;
     left:15px;
 }
 
@@ -60,4 +63,25 @@ flex-direction:column;
    
     
    
+}
+p{
+    font-family: 'Dancing Script', cursive;
+font-family: 'Noto Serif', serif;
+}
+header{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Noto Serif', serif;
+    font-weight: bold;
+    margin: 10px;
+}
+code{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Noto Serif', serif;
+    background-color: antiquewhite;
+    border: 2px solid;
+    padding: 10px;
+    margin: 10px;
+}
+section{
+    margin-top: 20px;
 }
